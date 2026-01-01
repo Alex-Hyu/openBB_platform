@@ -1,20 +1,13 @@
-# OpenBB Streamlit Dashboard Requirements
-# Core dependencies
+# OpenBB Streamlit Dashboard - Streamlit Cloud Compatible
+# 核心依赖
 streamlit>=1.28.0
 pandas>=2.0.0
-plotly>=5.18.0
 numpy>=1.24.0
+plotly>=5.18.0
+scipy>=1.11.0
 
-# OpenBB Platform
-openbb>=4.0.0
+# 数据源 (yfinance作为主要免费数据源)
+yfinance>=0.2.30
 
-# Optional: Install all OpenBB extensions
-# pip install "openbb[all]"
-
-# Individual OpenBB providers (uncomment as needed)
-# openbb-yfinance
-# openbb-fmp
-# openbb-polygon
-# openbb-fred
-# openbb-intrinio
-# openbb-benzinga
+# 可选: OpenBB (可能在Streamlit Cloud有权限问题)
+# openbb>=4.0.0
